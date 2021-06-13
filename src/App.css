@@ -1,38 +1,133 @@
-.App {
+.navbar{
+  background-color: white;
+}
+#navSymbol{
+  font-size: 40px;
+  color: black;
+}
+.navBar{
+  margin-left: 10% !important;
+}
+.navHover{
+  color: black !important;
+  font-size: 20px !important;
+  margin-left: 30px !important;
+}
+.avtarImage{
+  width:50px !important;
+}
+.card{
+  max-width: 240px;
+}
+@media only screen and (min-width :600px){
+  .navHover:hover{
+    background-color: lightcoral;
+    transition-duration: 1s;
+    border-radius: 10px;
+    transform: scale(1.1);
+  }
+  .rowIcon{
+    padding-left: 50%;
+  }
+  
+}
+.avtarImage:hover{
+  transform: scale(1.5);
+  transition-duration: 1s;
+}
+@media only screen and (max-width: 600px) {
+  .avtarImage {
+    visibility: hidden;
+  }
+  .cardChart{
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+}
+.summary{
+  margin-top: 100px;
+}
+.bigChart{
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 5px #dbdbdbfa;
+}
+.row{
+  margin-top: 50px;
+}
+.adminName{
   text-align: center;
+  margin-top: 20px;
+}
+.avtar{
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.darkButton{
+  background-color: black;
   color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 50px;
+  border-radius: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.lightButton{
+  margin-top: 20px;
+  color: black;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 5px #dbdbdbfa;
 }
+.darkButton:hover{
+    transform: scale(1.1);
+    transition-duration: 10ms;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.lightButton:hover{
+  transform: scale(1.1);
+  transition-duration: 10ms;
+}
+.dropdownButton{
+  display: inline-block;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.cardSubtitle{
+  font-size: 40px !important;
+  display: inline-block;
+}
+.cardChart{
+  box-shadow: 5px 5px 5px 5px #dbdbdbfa;
+  width: 20erm;
+  margin-right: -30px;
+}
+.cardPer{
+  display: inline-block;
+}
+.icons{
+  margin-bottom: 10px;
+}
+.icons:hover{
+  transform: rotate(10deg);
+  transition-duration: 10ms;
+}
+.billForm{
+  margin: 5px;
+  padding: 20px;
+  border-color: black;
+  box-shadow: 5px 5px 5px 5px #dbdbdbfa;
+  border-radius: 10px;
 }
