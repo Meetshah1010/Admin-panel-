@@ -6,6 +6,7 @@ import Image from 'react-bootstrap/Image';
 import MaterialUIPickers from './Datepicker';
 import Cards from './card/Card';
 import Bigchart from './Bigchart';
+import { Link } from 'react-router-dom';
 
 const nameAdmin = "Admin Name";
 function Summary(){
@@ -16,7 +17,7 @@ function Summary(){
                 <h3 className="adminName">{nameAdmin}</h3>
                 <div className="d-grid gap-2">
                     <button className="darkButton">Dashboard</button>
-                    <button className="lightButton">Billing System</button>
+                    <Link to={"/bill"}><button className="lightButton">Billing System</button></Link>
                     <button className="lightButton">Sales</button>
                     <button className="lightButton">Inventory Management</button>
                     <button className="lightButton">Coupans Generator</button>

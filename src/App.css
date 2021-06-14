@@ -124,10 +124,55 @@
   transform: rotate(10deg);
   transition-duration: 10ms;
 }
+.billRow{
+  margin-top: -10px;
+}
+.bill{
+  margin-top: 100px;
+}
 .billForm{
   margin: 5px;
   padding: 20px;
   border-color: black;
   box-shadow: 5px 5px 5px 5px #dbdbdbfa;
   border-radius: 10px;
+  margin-bottom: 10px;
+}
+.inputCss{
+  border: 2px solid lightblue !important;
+  border-radius: 10px !important;
+  font-weight: bold !important;
+  color: black !important;
+}
+.labelCss{
+  font-weight: bold !important;
+  color: black !important;
+}
+.billTitle{
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.mainForm{
+  border: 2px solid lightblue ;
+  border-radius: 10px ;
+  margin: 10px !important;
+}
+.billlightButton{
+  color: black;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: large;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 5px #dbdbdbfa;
+}
+.billlightButton:hover{
+  transform: scale(1.1);
+  transition-duration: 10ms;
 }
